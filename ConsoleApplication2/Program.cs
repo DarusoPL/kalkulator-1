@@ -12,17 +12,16 @@ namespace ConsoleApplication2
         {
             while (true)
             {
-                Console.WriteLine("0-exit");
                 Console.WriteLine("1-dodawanie");
                 Console.WriteLine("2-odejmowanie");
-                Console.WriteLine("3-mnozeniee");
                 int menuOption = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("3-cosinnegoe");   
                 if(menuOption == 0)
                 {
                     break;
                 }
+                Console.WriteLine("4-exit");
             }
-
         }
     }
 }
