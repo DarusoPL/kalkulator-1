@@ -10,6 +10,18 @@ namespace ConsoleApplication2
     {
         static void Main(string[] args)
         {
+            while (true)
+            {
+                Console.WriteLine("0-exit");
+                Console.WriteLine("1-dodawanie");
+                Console.WriteLine("2-odejmowanie");
+                int menuOption = Convert.ToInt32(Console.ReadLine());
+                if(menuOption == 0)
+                {
+                    break;
+                }
+            }
+
         }
     }
 }
