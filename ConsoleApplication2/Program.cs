@@ -15,6 +15,7 @@ namespace ConsoleApplication2
                 Console.WriteLine("0-exit");
                 Console.WriteLine("1-dodawanie");
                 Console.WriteLine("2-odejmowanie");
+                Console.WriteLine("3-mnozeniee");
                 int menuOption = Convert.ToInt32(Console.ReadLine());
                 if(menuOption == 0)
                 {
